@@ -13,3 +13,8 @@ print("There are", count, "sentences in this paragraph.")
 # Calculate and print out who received the highest and lowest total score and their scores.
 
 scores = "Wakeeta,90,93;Jia-Wen,87.5,93;Roberto,89,96.5;Akiko,93,87;Maurice,89,86"
+Wakeeta = "Name: ", scores[0:7], "; Math: ", scores[8:10], "; Writing: ", scores[11:13]
+JiaWen = "Name: ", scores[14:21], "; Math: ", scores[22:26], "; Writing: ", scores[27:29]
+Roberto = "Name: ", scores[30:37], "; Math: ", scores[38:40], "; Writing: ", scores[41:45]
+Akiko = "Name: ", scores[46:51], "; Math: ", scores[52:54], "; Writing: ", scores[55:57]
+Maurice = "Name: ", scores[58:65], "; Math: ", scores[66:68], "; Writing: ", scores[69:]
