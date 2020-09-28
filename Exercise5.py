@@ -4,8 +4,8 @@
 # Please analyze this paragraph by counting the number of sentences it contains.
 
 paragraph = "Geography is the study of natural Earth systems, human societies and the interaction between them. Geography bridges the physical and social sciences. Geographers work with powerful technologies such as geographic information systems (GIS), digital Earth imagery (remote sensing) and spatial modeling. And geographers are not afraid to get their boots muddy. Geography has a long-standing field tradition, often involving travel to spectacular locations. Geographers use a collaborative and integrated approach to help understand complex 21st century challenges such as climate change, globalization, sustainability, urbanization, and living with hazards. Rewarding careers exist in the private and public sectors, and education."
-paragraph.count(".")
-print("There are", paragraph.count("."), "sentences in this paragraph.")
+count = paragraph.count(".")
+print("There are", count, "sentences in this paragraph.")
 
 # 5-2: Student Score Ranking
 # Format is "student_name, math_score, writing_score".
